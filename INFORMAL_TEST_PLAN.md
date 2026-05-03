@@ -198,6 +198,22 @@ The Meeting Planner implements core scheduling, lookup, conflict detection, and 
 
 The main remaining risks are null-safety in partially initialized `Meeting` objects, reliance on exact seeded data order in `Organization`, and the strict interpretation of meeting time boundaries.
 
+## Why PlannerInterface was not unit tested
+
+The PlannerInterface class was not extensively unit tested because it mainly handles user input and output, rather than core application logic.
+
+It depends heavily on:
+
+- Console input/output (System.in, System.out)
+- Interactive menu navigation
+- Continuous user-driven execution
+
+Because of this, its behavior is not deterministic, making it unsuitable for standard unit testing, which requires isolated and predictable logic.
+
+Proper testing would also require mocking input/output streams, which is beyond the scope of this assignment.
+
+Instead, unit testing focused on core logic classes such as `Calendar`, `Person`, `Meeting`, `Organisation` and `Room`  which contain testable business rules.
+
 ## 7. Conclusion
 
 The system is suitable for basic scheduling flows. To improve robustness, the next priorities should be initializing `Meeting` collections consistently, making agenda formatting safer for partial meetings, and clarifying whether back-to-back meetings should be allowed.
