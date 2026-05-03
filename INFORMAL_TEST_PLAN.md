@@ -1,4 +1,12 @@
-# BSE3211 UNIT TESTING - INFORMAL TEST PLAN
+# BSE3211 UNIT TESTING - INFORMAL TEST PLAN BY GROUP DAJ
+
+| NAME                         | STUDENT NUMBER   | REGISTRATION NUMBER |
+|------------------------------|------------------|---------------------|
+| KARAGWA ANN TREASURE         | 23/U/09034/PS    | 2300709034          |
+| WANYANA SELINA MASEMBE       | 23/U/1529        | 2300701529          |
+| AYAN MUSTAFA ABDIRAHMAN      | 23/X/22948/EVE   | 2300722948          |
+| AMABE JUNIOR HUMPHREY        | 23/U/05942/PS    | 2300705942          |
+| AKANGA ANDREW                | 23/U/05555/PS    | 2300705555          |
 
 ## 1. Objective
 
