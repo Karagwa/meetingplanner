@@ -222,6 +222,8 @@ The system is suitable for basic scheduling flows. To improve robustness, the ne
 
 All tests referenced are in `meetingplanner/src/test/java/edu/sc/bse3211/meetingplanner/`.
 
+The project can accessed from the github project link: https://github.com/Karagwa/meetingplanner
+
 Run them from the Maven project directory:
 
 ```powershell
