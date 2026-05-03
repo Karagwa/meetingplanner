@@ -213,6 +213,3 @@ cd meetingplanner
 mvn test
 ```
 
----
-
-Document updated from the existing test sources, with added findings for `MeetingTest.java`, `OrganizationTest.java`, and `RoomTest.java`.
